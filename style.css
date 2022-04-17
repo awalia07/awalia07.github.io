@@ -1,0 +1,45 @@
+body {
+  min-height: 4000px;
+}
+jumbotron {
+  padding-top: 6rem;
+  background-color: azure;
+}
+
+#TUGASPBO {
+  background-color: azure;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.Galery .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.Galery .box-container .box{
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+overflow: hidden;
+cursor: pointer;
+}
+
+Galery .box-container .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+Galery .box-container .box:hover img{
+  transform: scale(1.2);
+}
+
+
+
